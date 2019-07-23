@@ -1,7 +1,7 @@
 # PriceActionChannel-Bitmex-Trading-Bot
 Python libraries allowing the user to create your own strategies on different tickers ( $XBT, $ETH $TRX,$ADA...).  
 <p align="center">
-  <img width="460" height="300" src="https://firebounty.com/image/751-bitmex">
+  <img src="https://firebounty.com/image/751-bitmex">
 </p>  
 
 ## Main.py 
