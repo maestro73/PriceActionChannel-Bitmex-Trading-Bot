@@ -4,6 +4,8 @@ Python libraries allowing the user to create your own strategies on different ti
   <img src="https://firebounty.com/image/751-bitmex">
 </p>  
 
+use `pip3 install -r requirements.txt` to install the required packages
+
 ## Main.py 
 This file describes how to recover the data from Bitmex , you need to fill apiKey and apiSecret with your own APIKey.  
 Exemple :  
