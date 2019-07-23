@@ -2,7 +2,8 @@
 Python libraries allowing the user to create your own strategies on different tickers ( $XBT, $ETH $TRX,$ADA...).  
 <p align="center">
   <img width="460" height="300" src="https://firebounty.com/image/751-bitmex">
-</p>
+</p>  
+
 ## Main.py 
 This file describes how to recover the data from Bitmex , you need to fill apiKey and apiSecret with your own APIKey.  
 Exemple :  
