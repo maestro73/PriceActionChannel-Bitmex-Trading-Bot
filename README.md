@@ -1,5 +1,5 @@
 # PriceActionChannel-Bitmex-Trading-Bot
-Python libraries allowing the user to create your own strategies on different tickers ( $XBT, $ETH $TRX,$ADA...).
+Python libraries allowing the user to create your own strategies on different tickers ( $XBT, $ETH $TRX,$ADA...).  
 ![alt text][logo]
 [logo]:https://firebounty.com/image/751-bitmex  "Logo Title Text 2"
 
