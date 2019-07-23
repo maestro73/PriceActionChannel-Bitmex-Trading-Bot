@@ -1,8 +1,8 @@
 # PriceActionChannel-Bitmex-Trading-Bot
 Python libraries allowing the user to create your own strategies on different tickers ( $XBT, $ETH $TRX,$ADA...).  
-![alt text][logo]
-[logo]:https://firebounty.com/image/751-bitmex  "Logo Title Text 2"
-
+<p align="center">
+  <img width="460" height="300" src="https://firebounty.com/image/751-bitmex">
+</p>
 ## Main.py 
 This file describes how to recover the data from Bitmex , you need to fill apiKey and apiSecret with your own APIKey.  
 Exemple :  
