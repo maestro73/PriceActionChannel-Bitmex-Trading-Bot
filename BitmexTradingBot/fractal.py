@@ -41,7 +41,7 @@ def fractal_simple(dataset,verbose=0):
     return dataset
 
 
-
+#identifying higher high , higher low, lower high,lower low
 def fractal_test(dataset):
     try:     
    #top
@@ -62,6 +62,7 @@ def fractal_test(dataset):
         print("Error printing highs")
     return dataset    
 
+#printing recent extremums
 def print_localExtremums(dataset):
     for i in range(len(dataset[0])-1,0,-1):
         try:
@@ -103,7 +104,7 @@ def print_localExtremums(dataset):
             pass
 
 
-    
+#did an higherHigh happened [where] period ago
 def nearHigherHigh(result,where):
     
     for i in range(0,where):
@@ -114,7 +115,7 @@ def nearHigherHigh(result,where):
             pass
 
     return False
-
+#did an higherLow happened [where] period ago
 def nearHigherLow(result,where):
     
     for i in range(0,where):
@@ -126,6 +127,7 @@ def nearHigherLow(result,where):
 
     return False
 
+#did an LowerLow happened [where] period ago
 def nearLowerLow(result,where):
     
     for i in range(0,where):
@@ -137,6 +139,7 @@ def nearLowerLow(result,where):
 
     return False
 
+#did an LowerHigh happened [where] period ago
 def nearLowerHigh(result,where):
     
     for i in range(0,where):
@@ -147,7 +150,10 @@ def nearLowerHigh(result,where):
             pass
 
     return False
+
+
 #is considered a double top or  double bottom , the two lowest lows that dont overcome the threshold depending of the timespan
+#default thresholds are 1.5% for 1h chart and 4.5% for the daily chart
 def doubleTop(result,binSize):
     seuil,stop=0,0
     highs=[]

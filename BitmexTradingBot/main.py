@@ -28,7 +28,6 @@ resultTRX=client.Trade.Trade_getBucketed(symbol="TRXU19",binSize="1h",partial=Tr
 #on stock le prix du BTC
 prixBTC=result[0][0]["close"]
 
-
 resultEth=fractal.fractal_simple(resultEth)
 resultEth=priceactionchannel.pac(resultEth,36)
 resultEth=strategy.extremumsMomentum(resultEth,"1h",client,tickerETH,prixBTC)
