@@ -4,10 +4,10 @@ Python libraries allowing the user to create his own strategies on different tic
 ## EMA.py
 This file allows you to create MA and EMA with a specified length and returns them included in the array that you gave as input : 
 
-Exemple : result=ma(result,5) creates MA5 value for every candle in the result array
-You can access by using 
-result[i]["MA5"]
-~ Using ema(result,5) directly creates both EMA5 and MA5 in the array result ~
+Exemple : result=ma(result,5) creates MA5 value for every candle in the result array.
+
+You can access by using result[i]["MA5"]
+Using ema(result,5) directly creates both EMA5 and MA5 in the array result 
 
 ## Fractal.py
 This file identifies Higher Highs, Higher Lows,Lower Highs, Lower Lows on every timeframe.
