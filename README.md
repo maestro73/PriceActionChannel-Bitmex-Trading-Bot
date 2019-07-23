@@ -5,7 +5,7 @@ Python libraries allowing the user to create your own strategies on different ti
 This file describes how to recover the data from Bitmex , you need to fill apiKey and apiSecret with your own APIKey.  
 Exemple :  
 First, create the connexion to Bitmex API :  
-`client = bitmex.bitmex(test=True,api_key=apiKey,api_secret=apiSecret)`
+`client = bitmex.bitmex(test=True,api_key=apiKey,api_secret=apiSecret)`  
 To get the 70 last candles for $XBT with 5min candles, you can use 
 `result = client.Trade.Trade_getBucketed(symbol="XBTUSD",binSize="5m",partial=True,count=70,reverse=True).result()`
 
