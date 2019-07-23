@@ -1,5 +1,5 @@
 # PriceActionChannel-Bitmex-Trading-Bot
-Python libraries allowing the user to create his own strategies on different tickers ( $XBT, $ETH $TRX,$ADA...).
+Python libraries allowing the user to create your own strategies on different tickers ( $XBT, $ETH $TRX,$ADA...).
 
 ## EMA.py
 This file allows you to create MA and EMA with a specified length and returns them included in the array that you gave as input : 
