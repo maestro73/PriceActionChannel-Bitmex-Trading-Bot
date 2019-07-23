@@ -33,7 +33,7 @@ with result : array of candles
 where : since when ( 1 unit = 1 candle )   
 
 Exemple : `nearHigherHigh(result,5)` will check if an higher high happened in the last 5 candles.  
-!!In order to use these functions, your previously need to use the function fractal_simple(result)!!  
+**In order to use these functions, your previously need to use the function fractal_simple(result)**    
 ## PriceActionChannel.py  
 This file allows you to create PAC with a specified length of EMA and returns them included in the array that you gave as input :   
 Exemple : `result=pac(result,5)` creates PAC value with an EMA5 for every candle in the result array  
@@ -56,4 +56,4 @@ with result : array of candles
 where : since when ( 1 unit = 1 candle )  
 
 Exemple : abovePAC(result,5) will check if the price was above PAC for the last 5 candles.  
-!!In order to use these functions, your previously need to use the function pac(result,length)!!  
+**In order to use these functions, your previously need to use the function pac(result,length)**  
