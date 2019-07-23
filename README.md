@@ -59,4 +59,9 @@ with result : array of candles
 where : since when ( 1 unit = 1 candle )  
 
 Exemple : abovePAC(result,5) will check if the price was above PAC for the last 5 candles.  
-**In order to use these functions, your previously need to use the function pac(result,length)**  
+**In order to use these functions, your previously need to use the function pac(result,length)**    
+
+## References
+[1] https://www.investopedia.com/terms/e/ema.asp
+[2] https://www.investopedia.com/terms/s/sma.asp
+[3] https://www.investopedia.com/articles/technical/04/080404.asp
